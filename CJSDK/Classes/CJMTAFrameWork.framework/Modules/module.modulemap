@@ -1,0 +1,6 @@
+framework module CJMTAFrameWork {
+  umbrella header "CJMTAFrameWork.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>client_id</key>
+	<string>ws</string>
+	<key>client_secret</key>
+	<string>chujian_ws</string>
+	<key>shoppe_id</key>
+	<string>applepay</string>
+	<key>channel_id</key>
+	<string>chujian</string>
+	<key>prop_id</key>
+	<string>prop_id</string>
+	<key>private_key</key>
+	<string>b6c14967276e45708617d71cd7f12579</string>
+	<key>sdk_ver</key>
+	<string>1.0.5</string>
+	<key>ad_code</key>
+	<string></string>
+	<key>cdn_url</key>
+	<string>https://testin.cdn.16801.com/ups/te/te.json</string>
+</dict>
+</plist>

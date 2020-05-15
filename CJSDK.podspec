@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CJSDK.'
+  s.version          = '0.0.1'
+  s.summary          = 'I just want to make a demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+I just want to make a demo, pls let me pass
                        DESC
 
   s.homepage         = 'https://github.com/seabird2020/CJSDK'
@@ -30,11 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CJSDK/Classes/**/*'
+  s.source_files = 'CJSDK/Classes/CJSDKDataGA.h'
   
-  # s.resource_bundles = {
-  #   'CJSDK' => ['CJSDK/Assets/*.png']
-  # }
+  s.resource_bundles = {
+   'CJSDK' => ['CJSDK/Classes/*/**/*.bundle']
+  }
+
+  s.vendored_libraries = 'CJSDK/Classes/*.a'
+
+  s.vendored_frameworks = 'CJSDK/Classes/*.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

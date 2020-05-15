@@ -1,0 +1,6 @@
+framework module CJSDK {
+  umbrella header "CJSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
