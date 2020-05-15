@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CJSDK_Example' do
+  pod 'CJSDK', :path => '../'
+
+  target 'CJSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
