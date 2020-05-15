@@ -33,12 +33,11 @@ I just want to make a demo, pls let me pass
   s.source_files = 'CJSDK/Classes/CJSDKDataGA.h'
   
   s.resource_bundles = {
-   'CJSDK' => ['CJSDK/Classes/*/**/*.bundle']
+   'CJSDK' => ['CJSDK/Classes/*.bundle']
   }
 
   s.vendored_libraries = 'CJSDK/Classes/*.a'
 
-  s.vendored_frameworks = 'CJSDK/Classes/*.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

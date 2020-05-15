@@ -1,6 +1,0 @@
-framework module OneKeyLogin {
-  umbrella header "OneKeyLogin.h"
-
-  export *
-  module * { export * }
-}
