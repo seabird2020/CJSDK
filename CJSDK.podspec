@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'I just want to make a demo'
 
 # This description is used to generate tags and improve search results.
@@ -38,8 +38,9 @@ I just want to make a demo, pls let me pass
 
   s.vendored_libraries = 'CJSDK/Classes/*.a'
   s.libraries = 'z.1.2.5'
+  s.frameworks = 'Security', 'AdSupport', 'CFNetwork', 'CoreTelephony', 'SystemConfiguration', 'MobileCoreServices', 'Foundation', 'CoreGraphics', 'UIKit'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+
   # s.dependency 'AFNetworking', '~> 2.3'
 end
