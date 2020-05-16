@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJSDK'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'I just want to make a demo'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,17 @@ I just want to make a demo, pls let me pass
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CJSDK/Classes/CJSDKDataGA.h'
+  #s.resource = ‘CJSDK/Assets/icon_cj_delete.png’
+  #s.ios.resources = ['CJSDK/Assets/B.bundle']
+  s.ios.resources = ['CJSDK/Classes/*.bundle', 'CJSDK/Classes/iOSManifest.plist']
   
-  s.resource_bundles = {
-   'CJSDK' => ['CJSDK/Classes/*.bundle', 'CJSDK/Classes/iOSManifest.plist']
-  }
+  #单个路径
+  #多个路径
+  #s.resources = [‘CJSDK/Classes/CJSDKBundle.bundle’, 'CJSDK/Classes/iOSManifest.plist']
+
+  #s.resource_bundles = {
+  # 'CJSDK' => ['CJSDK/Classes/*.bundle', 'CJSDK/Classes/iOSManifest.plist']
+  #}
 
   s.vendored_libraries = 'CJSDK/Classes/*.a'
   s.libraries = 'z.1.2.5'
